@@ -13,7 +13,7 @@ body {
     max-width: 1200px;
 }
 
-.home-button {
+.home-button, .contact-button {
     background-color: #3498db; /* 버튼 배경 색상 */
     color: white; /* 텍스트 색상 */
     padding: 10px 20px; /* 내부 여백 */
@@ -24,45 +24,17 @@ body {
     cursor: pointer; /* 마우스 포인터 */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
     transition: background-color 0.3s ease, transform 0.3s ease; /* 배경색 및 변형 애니메이션 */
-  }
-  
-  .home-button:hover {
+}
+
+.home-button:hover, .contact-button:hover {
     background-color: #2980b9; /* 호버 시 배경 색상 */
     transform: translateY(-2px); /* 호버 시 살짝 위로 이동 */
-  }
-  
-  .home-button:active {
+}
+
+.home-button:active, .contact-button:active {
     background-color: #1c5985; /* 클릭 시 배경 색상 */
     transform: translateY(0); /* 클릭 시 원래 위치 */
-  }
-  
-.contact-button {
-    background-color: #3498db; /* 버튼 배경 색상 */
-    color: white; /* 텍스트 색상 */
-    padding: 10px 20px; /* 내부 여백 */
-    font-size: 16px; /* 글자 크기 */
-    font-weight: bold; /* 글자 두께 */
-    border: none; /* 테두리 제거 */
-    border-radius: 5px; /* 테두리 둥글게 */
-    cursor: pointer; /* 마우스 포인터 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* 배경색 및 변형 애니메이션 */
-  }
-  
-  .contact-button:hover {
-    background-color: #2980b9; /* 호버 시 배경 색상 */
-    transform: translateY(-2px); /* 호버 시 살짝 위로 이동 */
-  }
-  
-  .contact-button:active {
-    background-color: #1c5985; /* 클릭 시 배경 색상 */
-    transform: translateY(0); /* 클릭 시 원래 위치 */
-  }
-
-
-
-
-
+}
 
 /* 헤더 스타일 */
 header {
@@ -77,17 +49,16 @@ header .container {
     padding: 1rem 0;
 }
 
-    header .logo {
-        display: flex;
-        justify-content: center; 
-        align-items: center;    
-        height: 100%;            
-    }
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 header .logo img {
     height: 208px;
 }
-
 
 /* 히어로 섹션 스타일 */
 .hero {
@@ -121,29 +92,5 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.about h2,
-.features h2 {
-    margin-top: 0;
-}
 
-.buttons {
-    margin-top: 1rem;
-}
 
-.buttons .button {
-    text-decoration: none;
-    background-color: #007bff;
-    color: white;
-    padding: 0.5rem 1rem;
-    margin-right: 10px;
-    border-radius: 5px;
-    display: inline-block;
-}
-
-/* 푸터 스타일 */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-}
