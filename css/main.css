@@ -13,7 +13,7 @@ body {
     max-width: 1200px;
 }
 
-.home-button, .contact-button , .get {
+.home-button, .contact-button , .get-button {
     background-color: #3498db; /* 버튼 배경 색상 */
     color: white; /* 텍스트 색상 */
     padding: 10px 20px; /* 내부 여백 */
@@ -26,12 +26,12 @@ body {
     transition: background-color 0.3s ease, transform 0.3s ease; /* 배경색 및 변형 애니메이션 */
 }
 
-.home-button:hover, .contact-button:hover, .get:hover {
+.home-button:hover, .contact-button:hover, .get-button:hover {
     background-color: #2980b9; /* 호버 시 배경 색상 */
     transform: translateY(-2px); /* 호버 시 살짝 위로 이동 */
 }
 
-.home-button:active, .contact-button:active, .get:active {
+.home-button:active, .contact-button:active, .get-button:active {
     background-color: #1c5985; /* 클릭 시 배경 색상 */
     transform: translateY(0); /* 클릭 시 원래 위치 */
 }
