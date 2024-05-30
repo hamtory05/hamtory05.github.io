@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="css/main.css">
     <style>
         .profile-img {
-            
             width: 50px; /* 이미지 너비 조정 */
             height: 50px; /* 이미지 높이 조정 */
             border-radius: 50%; /* 원형 이미지로 만들기 */
             margin-left: 10px; /* 버튼과 이미지 사이 간격 */
+            cursor: pointer; /* 마우스 포인터 */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+            transition: background-color 0.3s ease, transform 0.3s ease; /* 배경색 및 변형 애니메이션 */
         }
+        .profile-img:hover, .profile-img:hover {
+            transform: translateY(-2px); /* 호버 시 살짝 위로 이동 */
+        }
+
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="https://avatars.githubusercontent.com/u/163499219?s=400&u=7c0e3ef25b216c607b711657aae45fdba2ea313d&v=4" alt="github profile" class="profile-img">
+            <a href="https://github.com/hamtory05"><img src="https://avatars.githubusercontent.com/u/163499219?s=400&u=7c0e3ef25b216c607b711657aae45fdba2ea313d&v=4" alt="github profile" class="profile-img"></a>
             <div class="button">
-                <button class="contact-button">CONTACT</button>
+                <a href="https://www.instagram.com/jaehyeon._.05/"><button class="contact-button">CONTACT</button></a>
                 <button class="home-button">HOME</button>
             </div>
         </div>
@@ -36,7 +42,7 @@
     </header>
     <section class="skill">
         <div class="container">
-            <h2> > My skill🔍</h2>
+            <h2> > My skill✨</h2>
             <section class="features">
               <table>
                 <tr>
@@ -84,6 +90,43 @@
 
         </section>
     </main>
+
+    <section class="hope-job">
+        <div class="container">
+            <h2> > Desired Job🔍</h2>
+            <section class="features">
+                <table>
+                    <tr>
+                      <td align="center" width="96">
+                        <a href="#macropower-tech">
+                          <img src="./images/game developer.png" alt="icon" width="200" height="100"/>
+                        </a>
+                        <br>Game Developer
+                    </td>
+                      <td align="center" width="96">
+                        <a href="#macropower-tech">
+                          <img src="./images/game programmer.png" alt="icon" width="200" height="100"/>
+                        </a>
+                        <br>Game Progammer
+                      </td>
+                   </tr>
+                  </table>
+            </section>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <script src="js/index.js"></script>
