@@ -19,7 +19,8 @@
 
 #### 홈페이지 스크린샷 📷
 
-> <img width="1230" alt="homepage png" src="https://github.com/hamtory05/hamtory05.github.io/assets/163499219/8125cfe4-cb3c-4ecf-94ee-a5f4c4bfb6fc">
+> <img width="1267" alt="personal homepage png" src="https://github.com/hamtory05/hamtory05.github.io/assets/163499219/d72793b6-b7d6-44b5-a7a2-f4d3887bb4c4">
+
 
  #### 깃허브 프로필 📱
 >
@@ -34,7 +35,14 @@
 >     ⚙ 왼쪽 위 프로필 클릭 시 깃허브 프로필로 이동됨
 >  </tr>
 > </table>
->
+
+#### 버튼 종류
+
+> - <h5>HOME</h5> : 홈 버튼은 장식
+> 
+> - <h5>CONTACT</h5> : CONTACT 버튼 누르면 인스타로 이동됨
+> 
+> - <h5>GET A</h5> : GET A 버튼 누르면 그림 나옴
 
  #### 나의 스킬, 할 수 있는 것 ✨   
 
