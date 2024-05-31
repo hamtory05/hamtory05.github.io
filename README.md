@@ -1,9 +1,12 @@
 # 컴퓨터공학과 20242431 임재현 
 
 > 웹스크립트 프로그래밍 개인 홈페이지 만들기 과제 📌
+<br>
 
 ### 깃허브 링크
 > https://github.com/hamtory05
+
+<br>
 
 ### 평가 기준 ✅
 > - 테마 만들기 
@@ -17,13 +20,16 @@
 > - 희망 직무 
 
 
+<br>
 
 ### 홈페이지 설명 👄
+<br>
 
 #### 홈페이지 스크린샷 📷
 
 > <img width="1267" alt="personal homepage png" src="https://github.com/hamtory05/hamtory05.github.io/assets/163499219/d72793b6-b7d6-44b5-a7a2-f4d3887bb4c4">
 
+<br>
 
  #### 깃허브 프로필 📱
 >
@@ -39,6 +45,8 @@
 >  </tr>
 > </table>
 
+<br>
+
 #### 버튼 종류
 
 > - <h5>HOME</h5> : 홈 버튼은 장식
@@ -46,6 +54,8 @@
 > - <h5>CONTACT</h5> : CONTACT 버튼 누르면 인스타로 이동됨
 > 
 > - <h5>GET A</h5> : GET A 버튼 누르면 그림 나옴
+
+<br>
 
  #### 나의 스킬, 할 수 있는 것 ✨   
 
@@ -79,6 +89,7 @@
 >    </td>
 >   </tr>
 >  </table>
+<br>
 
 #### 내가 했던 프로젝트 또는 앞으로 해보고 싶은 프로젝트 📚
 
@@ -90,6 +101,8 @@
 > - <h5>Pac-Man 게임 만들기</h5>
 > - <h5>테트리스 만들기</h5>
 > - <h5>ChatGpt API를 이용한 CHAT-BOT 만들기</h5>
+
+<br>
 
 #### 희망 직무 🔍
 > <table>
